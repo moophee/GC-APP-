@@ -12,7 +12,7 @@ export const myStyle = StyleSheet.create({
       flexDirection:"row"
     },
     header: {
-        fontSize:17.5,
+        fontSize:15.5,
         fontWeight : "bold",
         fontFamily:"",
         marginBottom:10,
@@ -69,6 +69,13 @@ export const myStyle = StyleSheet.create({
         borderColor:"gray",
         borderStyle:"solid",
         borderRadius: 10
-  },
-  });
+     },
+      input: {
+        height:40,
+        margin: 12,
+        borderwidth: 1,
+        padding: 10,
+        borderradius: 5
+      },
+});
 
